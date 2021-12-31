@@ -4,7 +4,7 @@ from random import randrange
 # detect the cascade, to use it later
 trained_face_data = cv2.CascadeClassifier('./Resources/haarcascade_frontalface_default.xml')
 
-# video capture
+# video capture (if you place the video file path, it will take in the video as an input)
 webcam = cv2.VideoCapture(0)
 
 while True:
